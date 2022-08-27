@@ -18,7 +18,7 @@ public class Musteri {
 	}
 
 	public Musteri(int musteriNo, String tcNo, String isim) { // Buradaki Constructor da ise kendi belirledigimiz iki
-		// degiskene ,nesne olusturulurken ayni zamanda da deger atamasi yapiliyor.
+			// degiskene ,nesne olusturulurken ayni zamanda da deger atamasi yapiliyor.
 		this.musteriNo = musteriNo;
 		this.tcNo = tcNo;
 		this.isim = isim;
