@@ -10,7 +10,7 @@ public class Main {
 		musteri1.setMusteriNo(3214); // Zaman zaman bu islem zahmetli olabiliyor.
 
 		Musteri musteri2 = new Musteri(12345, "49090832832", "Berkan Turkoglu"); // Bu sekilde Constructor ile kolay bir
-																					// sekilde yapiliyor.
+		// sekilde yapiliyor.
 
 		musteri1.bilgileriGoster();
 		musteri2.bilgileriGoster();
