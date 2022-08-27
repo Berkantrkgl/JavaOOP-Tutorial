@@ -8,7 +8,7 @@ public class Musteri {
 	private String tcNo;
 
 	public Musteri() { // Burada olusturulan Constructor degerlere eger girilmezse default olarak atama
-						// islemi yapiyor.
+		// islemi yapiyor.
 
 		this.musteriNo = 0;
 		this.musteriEmail = "Bilgi Yok";
@@ -18,7 +18,7 @@ public class Musteri {
 	}
 
 	public Musteri(int musteriNo, String tcNo, String isim) { // Buradaki Constructor da ise kendi belirledigimiz iki
-													// degiskene ,nesne olusturulurken ayni zamanda da deger atamasi yapiliyor.
+		// degiskene ,nesne olusturulurken ayni zamanda da deger atamasi yapiliyor.
 		this.musteriNo = musteriNo;
 		this.tcNo = tcNo;
 		this.isim = isim;
