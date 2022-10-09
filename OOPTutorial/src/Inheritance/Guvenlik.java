@@ -24,4 +24,20 @@ public class Guvenlik extends Calisan {
 		System.out.println("Guvenlik Calisiyor");
 	}
 
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+
+	public String getVardiye() {
+		return vardiye;
+	}
+
+	public void setVardiye(String vardiye) {
+		this.vardiye = vardiye;
+	}
+
 }
