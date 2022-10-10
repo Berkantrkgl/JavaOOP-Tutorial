@@ -2,6 +2,9 @@ package ExceptionHangling;
 
 public class Main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		/*
 		 * Burada hata olusabilecek kod satirlarini try icine aliyoruz. Buradan cikan
