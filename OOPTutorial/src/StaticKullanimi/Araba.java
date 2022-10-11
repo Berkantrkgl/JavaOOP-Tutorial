@@ -14,6 +14,11 @@ public class Araba {
 		this.fiyat = fiyat;
 		Araba.sayac++;
 	}
+
+	public void bilgileriGoster(){
+		System.out.println("Marka : " + this.marka);
+		System.out.println("Fiyat : " + this.fiyat);
+	}
 	
 	public static void kacArabaSatildi() {
 		System.out.println("Satilan araba sayisi : " + Araba.sayac);

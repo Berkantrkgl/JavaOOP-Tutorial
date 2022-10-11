@@ -6,7 +6,7 @@ public class Main {
 		
 		
 		try {
-			Student s1 = Student.find("12");
+			Student.find("12");
 		} catch (ArithmeticException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

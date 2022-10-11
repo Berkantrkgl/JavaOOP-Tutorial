@@ -11,10 +11,11 @@ public class Main {
 		 * herhangi bir hatayi catch bloklari sayesinde yakaliyoruz.
 		 */
 
-		int a;
+		
 		try {
-			a = 2 / 0;
-		} catch (ArithmeticException e) {
+			int a = 2 / 0;
+			System.out.println("Cevap : " + a);
+		} catch (ArithmeticException e) { 
 			System.out.println(e.getMessage());
 		}
 
